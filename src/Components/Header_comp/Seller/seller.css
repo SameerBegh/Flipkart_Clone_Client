@@ -1,0 +1,30 @@
+.seller_nav{
+    height: 320px;
+    background-image: url("https://img1a.flixcart.com/fk-sp-static/images/welcome_potal_banner_Desktop_V2_02.svg ");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.Phone ::-webkit-inner-spin-button,
+.Phone ::-webkit-outer-spin-button
+{
+-webkit-appearance: none;
+margin: 0;
+}
+.Phone{
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 20px 0px;
+}
+.seller_info{
+    display: grid;
+    position: absolute;
+    width: 280px;
+    margin: 50px 160px;
+}
+.seller_title{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    
+}

@@ -1,0 +1,11 @@
+.Price_title{
+    padding:15px 24px; 
+    background-color:#ffff;
+     border-bottom:1px solid #f0f0f0
+}
+
+
+.Price{
+    float: right;
+    font-weight: 500;
+}

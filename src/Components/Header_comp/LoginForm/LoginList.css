@@ -1,0 +1,40 @@
+.Login_box {
+
+    width: 250px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+
+.link:hover {
+    background-color: #fafafa;
+
+}
+
+.sign_box {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 18px;
+}
+
+.link {
+    width: 100%;
+    padding: 17px;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+.number ::-webkit-inner-spin-button,
+.number ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

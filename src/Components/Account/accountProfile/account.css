@@ -1,0 +1,51 @@
+.account_Box {
+    width: 59%;
+    margin: 20px 150px 20px auto;
+    position: relative;
+    background-color: #fff;
+    height: 122vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 35px;
+}
+
+.form-Box{
+    margin-top: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #f5faff;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    /* padding: 3; */
+    font-size: 17px;
+    font-family: inherit;
+    font-weight: 600;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit {
+    color: #2478f0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.email_box {
+    display: flex;
+    align-items: center;
+}
+
+.input_box {
+    margin-right: 20px;
+}
+
+h5{
+    margin: 15px 0 5px;
+}

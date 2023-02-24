@@ -1,0 +1,40 @@
+.empty_container {
+    width: 80%;
+    height: 55vh;
+    background-color: #fff;
+    margin: 90px auto 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.empty_box {
+    padding: 36px;
+    text-align: center;
+}
+
+
+ 
+.Empty_Shop_btn,
+.Empty_Log_btn {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 2px;
+    color: #212121;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: inherit;
+    color: #fff;
+}
+
+.Empty_Shop_btn {
+    background: #2874f0;
+}
+
+.Empty_Log_btn {
+    background-color: #fb641b;
+}

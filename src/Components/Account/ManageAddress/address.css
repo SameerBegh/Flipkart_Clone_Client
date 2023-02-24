@@ -1,0 +1,87 @@
+.address_Box {
+    width: 59%;
+    margin: 20px 150px 20px auto;
+    position: relative;
+    background-color: #fff;
+    min-height: 700px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}
+
+.addBtn {
+    border: 1px solid #e0e0e0;
+}
+
+.addressForm {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 30px;
+    background-color: #f5faff;
+}
+
+.txt {
+    display: flex;
+    margin: 20px 0px;
+}
+
+
+.saveBtn {
+    width: 220px;
+    height: 40px;
+
+}
+
+.select {
+    height: 40px;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 220px;
+    padding: 0px 10px;
+}
+
+.label {
+    color: #878787;
+    display: flex;
+    font-size: 13px;
+    position: absolute;
+    margin: -10px 0 0 10px;
+    padding: 0 5px;
+    background-image: linear-gradient(#f5faff, #fff);
+}
+
+.select:focus {
+    border: 2px solid #c2c2c2;
+    border-color: #2478f0;
+}
+
+.select:focus~.label {
+    color: #2478f0;
+}
+
+.stateOption {
+
+    padding: 5px;
+}
+
+.number ::-webkit-inner-spin-button,
+.number ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.empty_address{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    height: 80vh;
+    flex-direction: column;
+}

@@ -1,0 +1,115 @@
+.more_box {
+    width: 250px;
+    height: 216px;
+    border-radius: 6px;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.more-list {
+    width: 100%;
+    padding: 17px;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+.more-list:hover {
+    background-color: #fafafa;
+
+}
+
+.downloadApp {
+    padding: 0px 150px 130px;
+    height: 720px;
+    color: #fff;
+    background: url("https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/background_1686f2.png") no-repeat top;
+    background-position-y: 5px;
+    width: 100%;
+    max-width: 1680px;
+    min-width: 978px;
+    margin: 0 auto 20px;
+    background-size: contain;
+}
+
+.downloadApp_inner {
+    padding-top: 80px;
+    width: 640px;
+    display: block;
+    position: absolute;
+    margin: 80px 0 0 80px;
+}
+
+.fk_Logo {
+    width: 180px;
+    display: block;
+    margin: 10px 235px;
+
+}
+
+.fk_Logo img {
+    width: 130px;
+    height: 33px;
+}
+
+.download_title1 {
+    font-size: 45px;
+    text-align: center;
+    width: 600px;
+    height: 84px;
+    display: block;
+}
+
+.download_title2 {
+    font-size: 35px;
+}
+
+.DA_flex_box {
+    margin-top: 60px;
+    display: inline-block;
+}
+
+.DA_img {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.download_btn {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.download_link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.download_link:hover {
+    color: black;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+    .downloadApp {
+        padding: 0 1px 130px;
+    }
+
+    .downloadApp_inner {
+        padding: 80px 40px 0 0;
+    }
+
+    .download_title1 .download_title2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .DA_flex_box {
+        margin-top: 40px;
+        display: inline-block;
+    }
+
+}

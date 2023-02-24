@@ -1,0 +1,142 @@
+.Order_Container{
+    display: flex;
+    margin: 70px 150px 20px;
+    min-height: 100vh;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+.Order_detail{
+    width: 68%;
+    /* background-color: pink; */
+}
+.Order_payment{
+width: 20%;
+/* position: fixed;
+margin: 0 0 50px;
+right: 150px; */
+}
+.login_order{
+    display: flex;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    /* min-height: 50px; */
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.login_1{
+display: inline-flex;
+align-items: center;
+color: #878787;
+font-weight: 600;
+}
+.login_2{
+    margin-left: 32px;
+    align-items: center;
+}
+
+.number_box{
+width: 20px;
+height: 20px;
+font-size: 15px;
+text-align: center;
+justify-content: center;
+background-color: #f0f0f0;
+}
+.box_header{
+
+}
+
+.Change_Box{
+    padding: 20px;
+    background-color: #fff;
+}
+.login_1C{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    background-color: #2478f0;
+    color: #fff; 
+    padding:  15px 20px;
+}
+.Login_Detail, .Address_Detail{
+    display: flex;
+    justify-content: space-between; 
+    margin: 0 30px;
+    /* background-color: #fff; */
+}
+.div_user{
+    font-size: 14px;
+    font-weight: 550px;
+}
+.div_user p{
+    margin-bottom: 10px;
+}
+.div p{
+    display: flex;
+    font-size: 14px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+}
+.note{
+    font-size: 14px;
+    font-weight: 550px;
+    /* text-align: center; */
+     margin: 20px 30px 0px;
+}
+.C_number_box{
+width: 20px;
+height: 20px;
+font-size: 14px;
+text-align: center;
+justify-content: center;
+background-color: #fff;
+color: #111;
+}
+
+/* Address */
+.Address_Container, .Order_summary{
+    margin-top: 10px;
+}
+.change_address{
+    width: 100%;
+    background-color: #2478f0;
+}
+.div_address p{
+    margin-bottom: 10px;
+}
+.address_span{
+    margin-left: 8px;
+}
+.Address_Box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5faff;
+}
+
+.Address_edit{
+    width: 100%;
+    background-color: #f5faff;
+    min-height: 500px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Edit_addressForm {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 30px;
+    background-color: #f5faff;
+}
+.Address_change{
+    margin-left: 10px;
+    
+}

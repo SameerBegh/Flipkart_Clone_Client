@@ -1,0 +1,15 @@
+.detail {
+    margin: 70px 70px 30px;
+    min-height: 100vh;
+}
+
+
+
+@media (max-width: 500px) {
+    .detail {
+        width: 100%;
+        margin: 70px 10px 10px;
+    }
+
+
+}

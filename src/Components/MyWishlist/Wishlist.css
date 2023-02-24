@@ -1,0 +1,31 @@
+.wish_Box{
+width: 59%;
+margin: 20px 150px 20px auto;
+position: relative;
+}
+
+.wish_header{
+    display: flex;
+    background-color: #fff;
+    width:100%;
+    padding: 10px 0;
+}
+.Wish_Content_box{
+     width: 100%;
+    background-color: #fff;
+    margin-left: 30px;
+}
+
+.wish_container{
+    width: 95%;
+    margin: 20px 150px 20px 10px;
+    background-color: #fff;
+    min-height: 122vh;
+    padding-top: 20%;
+}
+.empty_wish{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

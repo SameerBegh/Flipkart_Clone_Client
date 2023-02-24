@@ -1,0 +1,32 @@
+.more {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+   
+}
+
+.more_icon {
+    font-size: 17px;
+
+}
+
+.more:hover .more_icon {
+    transform: rotate(-180deg);
+    transition: 0.3s;
+    white-space:pre-wrap;
+}
+
+
+.cart{
+    display: none;
+}
+
+@media (max-width:600px) {
+    .rightbar{
+    display:none;
+    }
+    .cart{
+        display: flex;
+        margin: auto;
+    }
+}

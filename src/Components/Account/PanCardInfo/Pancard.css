@@ -1,0 +1,49 @@
+.Pancard_Box {
+    width: 59%;
+    margin: 20px 150px 20px auto;
+    position: relative;
+    background-color: #fff;
+    min-height: 600px;
+}
+
+.form_box {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}
+
+
+
+.PAN_file {
+    display: flex;
+    width: 300px;
+    margin: 15px 0;
+    border: 1px solid #c2c2c2c2;
+    height: 55px;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.PAN_checkbox {
+    margin: 20px 0;
+    font-size: 14px;
+    display: flex;
+    font-family: inherit;
+
+}
+
+.pancheck {
+    margin: -30px 10px 0 0;
+}
+
+.Pan_Btn {
+    width: 300px;
+    height: 48px;
+}
+
+.panlink {
+    padding: 35px;
+    text-decoration: none;
+    color: #2478f0;
+}

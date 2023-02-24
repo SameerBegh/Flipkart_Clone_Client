@@ -1,0 +1,84 @@
+.footer_container {
+    bottom: 0;
+    left: 0;
+    background-color: #172337;
+    line-height: 1.4;
+    width: 100%;
+    min-height: 300px;
+    align-items: center;
+    margin-top: auto;
+
+}
+
+.footer_box {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.about,
+.help,
+.policy,
+.social {
+    display: flex;
+    flex-direction: column;
+    color: #878787;
+    margin: 20px;
+    font-size: 13px;
+}
+
+.footer_header {
+    margin-bottom: 10px;
+}
+
+.footer_link {
+    line-height: 2;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer_link:hover {
+    text-decoration: underline;
+}
+
+.vl {
+    margin-top: 20px;
+    border-right: 1px solid #454d5e;
+    height: 140px;
+    margin-right: -40px;
+    margin-left: 80px;
+}
+
+.office,
+.mail {
+    width: 240px;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.footer_bottom {
+    border-top: 1px solid #454d5e;
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+
+.fb_text {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+@media (max-width:600px) {
+    .footer_container{
+        display: none;
+    }
+}

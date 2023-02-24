@@ -1,0 +1,46 @@
+.aapbar{
+    background-color: #2874f0;
+    height: 56px;
+    font-family: inherit;
+}
+.logo{
+    margin-left: 175px;
+    cursor: pointer;
+    line-height: 0;
+}
+.search{
+    display: flex;
+    width: 570px;
+    height: 36px;
+    background-color: #fff;
+    margin-left: 12px;
+    border-radius: 2px;
+}
+
+@media (max-width:600px) {
+    .logo{
+        margin:auto;
+    }
+    .search{
+        display: flex;
+        width: 300px;
+        height: 36px;
+        background-color: #fff;
+        margin:auto;
+        border-radius: 2px;
+    }
+}
+
+@media (max-width:450px) {
+    .logo{
+        margin:10px 0 10px 10px;
+    }
+    .search{
+        display: flex;
+        max-width: 200px;
+        height: 36px;
+        background-color: #fff;
+        /* margin:auto; */
+        border-radius: 2px;
+    }
+}
