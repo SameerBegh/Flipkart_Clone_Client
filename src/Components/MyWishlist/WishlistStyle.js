@@ -34,9 +34,8 @@ const WishlistStyle = ({ url, id, title, priceDiscount, cost, mrp, _id }) => {
   const [deleteTooltip, setdeleteTooltip] = useState(false);
   const { setwish } = useContext(DataContext);
   const wishlistItems = useRef();
-  // const URL = "http://localhost:8000";
-  const URL = "https://mern-flipkart-clone-server.onrender.com";
-
+  const URL = "http://localhost:8000";
+ 
 
   const fkassured =
     "https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png";

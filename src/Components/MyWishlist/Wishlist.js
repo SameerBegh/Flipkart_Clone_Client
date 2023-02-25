@@ -12,8 +12,8 @@ const Wishlist = () => {
 
   const wishlistItems = useRef();
 
-  // const URL = "http://localhost:3000";
-  const URL = "https://mern-flipkart-clone-server.onrender.com";
+  const URL = "http://localhost:3000";
+
   
   useEffect(() => {
     const token = localStorage.getItem("jwt");

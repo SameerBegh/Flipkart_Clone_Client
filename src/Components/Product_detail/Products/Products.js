@@ -35,8 +35,8 @@ const Products = () => {
   const { user } = useContext(DataContext);
   const { setOpen, setAccounttoggle } = useContext(UserContextInfo);
   const dispatch = useDispatch();
-  // const URL = "http://localhost:8000";
-  const URL = "https://mern-flipkart-clone-server.onrender.com";
+  const URL = "http://localhost:8000";
+
 
   // const URL = ""; 
   const fkassured =

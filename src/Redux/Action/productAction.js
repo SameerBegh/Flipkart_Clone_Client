@@ -2,8 +2,7 @@ import axios from "axios";
 import * as actionType from "../Constant/productConstant";
 // Redux
 
-const URL = "https://mern-flipkart-clone-server.onrender.com";
-// const URL = "http://localhost:8000";
+const URL = "http://localhost:8000";
 
 export const getProducts = () => async (dispatch) => {
   try {

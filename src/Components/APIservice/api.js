@@ -1,8 +1,7 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 
-// const URL = "http://localhost:8000";
-const URL = "https://mern-flipkart-clone-server.onrender.com";
+const URL = "http://localhost:8000";
 
 const notify = (message) =>
   toast.error(message, {

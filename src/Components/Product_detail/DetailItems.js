@@ -59,8 +59,8 @@ const DetailItems = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { id } = useParams();
-  // const URL = "http://localhost:8000";
-  const URL = "https://mern-flipkart-clone-server.onrender.com";
+  const URL = "http://localhost:8000";
+
 
   useEffect(() => {
     if (product && id !== product.id) dispatch(getProductDetails(id));
